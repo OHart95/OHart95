@@ -1,0 +1,54 @@
+:root {
+    --skanskaDimWhite: rgba(245,245,245,1);
+    --skanskaBlue: rgba(20,50,117,1);
+}
+
+html {
+    font-family: "Shape Sans";
+    background-color: var(--skanskaDimWhite)
+}
+
+h2 {
+    color: var(--skanskaBlue);
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+  }
+
+p {
+    margin: 5px;
+}
+
+.form {
+    margin-top: 20px;
+}
+
+input[type=submit] {
+    cursor:pointer;
+    border-radius: 5px;
+    border-color: var(--skanskaBlue);
+    background-color: var(--skanskaBlue);
+    color: var(--skanskaDimWhite);
+    
+}
+
+button {
+    cursor:pointer;
+    border-radius: 5px;
+    border-color: var(--skanskaBlue);
+    background-color: var(--skanskaBlue);
+    color: var(--skanskaDimWhite);
+    
+}
+
+.resultParas {
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+}
